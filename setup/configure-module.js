@@ -53,6 +53,12 @@ module.exports = plop => {
       },
       {
         type: 'modify',
+        path: '../package.json',
+        pattern: /thebuilder/g,
+        template: '{{lowerCase githubUser}}',
+      },
+      {
+        type: 'modify',
         path: '../src/index.js',
         pattern: /HelloWorld/g,
         template: '{{properCase name}}',
@@ -69,8 +75,7 @@ module.exports = plop => {
         pattern: /HelloWorld/g,
         template: '{{properCase name}}',
       },
-      () => setAuthor(startCase(data.author)),
-      () => setDescription(data.description),
+      () => configurePackage(data),
       () => renameWorld(data.name),
       () => deleteFromPackage(['postinstall'], 'scripts'),
       () =>
@@ -81,18 +86,15 @@ module.exports = plop => {
   });
 };
 
-function setAuthor(author) {
+function configurePackage(data) {
   const pck = jsonfile.readFileSync('./package.json');
-  pck.author = author;
-  jsonfile.writeFileSync('./package.json', pck, { spaces: 2 });
-  return `Set Author as ${author} in package.json`;
-}
+  pck.author = startCase(data.author);
+  pck.description = data.description || '';
+  pck.version = '0.1.0';
+  pck.scripts.postpublish = 'npm run deploy';
 
-function setDescription(description) {
-  const pck = jsonfile.readFileSync('./package.json');
-  pck.description = description || '';
   jsonfile.writeFileSync('./package.json', pck, { spaces: 2 });
-  return `Set Description as ${description} in package.json`;
+  return `Updated package.json`;
 }
 
 function renameWorld(name) {

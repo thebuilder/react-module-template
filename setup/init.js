@@ -3,7 +3,7 @@ const path = require('path');
 
 const basename = path.parse(process.cwd()).name;
 
-if (basename !== 'react-module-template') {
+if (basename !== 'react-module-template' && !process.env.CI) {
   setup();
 }
 

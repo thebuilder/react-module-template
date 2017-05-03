@@ -11,6 +11,9 @@ import {{ properCase name }} from '{{ kebabCase name }}'
 <{{ properCase name }} name="World" />
 ```
 
+## Demo
+See [https://{{ githubUser }}.github.io/{{ kebabCase name }}/]() for a demo.
+
 ## Installation
 
 Install using [Yarn](https://yarnpkg.com):
