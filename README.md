@@ -2,7 +2,7 @@
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/thebuilder/react-module-template.svg)](https://greenkeeper.io/)
 [![Travis](https://travis-ci.org/thebuilder/react-module-template.svg?branch=master)](https://travis-ci.org/thebuilder/react-module-template)
-[![Dependency Status](https://david-dm.org/thebuilder/react-module-template.svg)](https://david-dm.org/thebuilder/react-module-template)
+[![devDependencies Status](https://david-dm.org/thebuilder/react-module-template/dev-status.svg)](https://david-dm.org/thebuilder/react-module-template?type=dev)
 
 ## Ready, set, publish!
 Template comes with all the tools you need, to get started with publishing a React module.
