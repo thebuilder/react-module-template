@@ -65,13 +65,13 @@ module.exports = plop => {
       },
       {
         type: 'modify',
-        path: '../stories/HelloWorld.story.js',
+        path: '../src/__stories__/HelloWorld.story.js',
         pattern: /HelloWorld/g,
         template: '{{properCase name}}',
       },
       {
         type: 'modify',
-        path: '../tests/HelloWorld.test.js',
+        path: '../src/__tests__/HelloWorld.test.js',
         pattern: /HelloWorld/g,
         template: '{{properCase name}}',
       },
