@@ -99,13 +99,13 @@ function configurePackage(data) {
 
 function renameWorld(name) {
   fs.renameSync(
-    path.join(process.cwd(), 'stories/HelloWorld.story.js'),
-    path.join(process.cwd(), `stories/${properCase(name)}.story.js`)
+    path.join(process.cwd(), 'src/__stories__/HelloWorld.story.js'),
+    path.join(process.cwd(), `src/__stories__/${properCase(name)}.story.js`)
   );
 
   fs.renameSync(
-    path.join(process.cwd(), 'tests/HelloWorld.test.js'),
-    path.join(process.cwd(), `tests/${properCase(name)}.test.js`)
+    path.join(process.cwd(), 'src/__tests__/HelloWorld.test.js'),
+    path.join(process.cwd(), `src/__tests__/${properCase(name)}.test.js`)
   );
 
   return 'Renamed HelloWorld files';
