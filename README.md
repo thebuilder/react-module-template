@@ -11,7 +11,7 @@ Template comes with all the tools you need, to get started with publishing a Rea
 Install the template by cloning this repository, removing `.git` and running `yarn`.
 
 ```sh
-git clone git@github.com:thebuilder/react-scroll-percentage.git {PROJECT_NAME}
+git clone git@github.com:thebuilder/react-module-template.git {PROJECT_NAME}
 cd {PROJECT_NAME}
 rm -rf .git
 yarn
