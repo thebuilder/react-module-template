@@ -1,8 +1,6 @@
 # react-module-template
 [![Travis](https://travis-ci.org/thebuilder/react-module-template.svg?branch=master)](https://travis-ci.org/thebuilder/react-module-template)
 [![Dependency Status](https://david-dm.org/thebuilder/react-module-template.svg)](https://david-dm.org/thebuilder/react-module-template)
-[![npm](https://img.shields.io/npm/v/react-module-template.svg)](https://www.npmjs.com/package/react-module-template)
-
 
 ## Ready, set, publish!
 Template comes with all the tools you need, to get started with publishing a React module.
