@@ -68,7 +68,7 @@
     "babel-eslint": "^7.2.3",
     "babel-jest": "^19.0.0",
     "babel-preset-react-app": "^2.2.0",
-    "concurrently": "3.4.0",
+    "concurrently": "^3.4.0",
     "del": "^2.2.2",
     "enzyme": "^2.8.2",
     "enzyme-to-json": "^1.5.1",
