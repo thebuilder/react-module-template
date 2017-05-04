@@ -5,7 +5,7 @@
 [![devDependencies Status](https://david-dm.org/thebuilder/react-module-template/dev-status.svg)](https://david-dm.org/thebuilder/react-module-template?type=dev)
 
 ## Ready, set, publish!
-Template comes with all the tools you need, to get started with publishing a React module.
+Zero config template that comes with all the tools you need, to get started with publishing a React module to NPM.
 
 ### Installation
 Install the template by cloning this repository, removing `.git` and running `yarn`.
@@ -17,7 +17,8 @@ rm -rf .git
 yarn
 ```
 
-After the `node_modules` have been installed, you will be prompted to answer a few customization questions regarding the module you are creating - these are used to update the `package.json`, `readme.md` etc.
+After the `node_modules` have been installed, you will be prompted to answer a few questions regarding the module you are creating - these are used to update the `package.json`, `readme.md` etc.
+
 
 ### Tools
 * **[Babel](https://babeljs.io/)** - All your code is compiled with Babel, so it can be consumed as NPM module.
@@ -33,6 +34,9 @@ To start development, you can run `yarn dev` to start Storybook on `http://local
 
 ## Publish
 I recommend using the excellent [NP](https://github.com/sindresorhus/np), whenever you are ready to release a new version. This ensures everything is versioned, committed and tested, before you publish.
+
+### Auto generated docs
+[react-docgen](https://github.com/reactjs/react-docgen) adds the PropTypes you have defined into the `readme.md` when the module is published - ensures the props are kept in sync.
 
 ### Github Pages
 Whenever you publish the module, the `postpublish` script will build the Storybook and publish it to the `gh-pages` branch using [git-directory-deploy](https://github.com/lukekarrys/git-directory-deploy).

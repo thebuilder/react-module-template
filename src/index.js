@@ -4,6 +4,7 @@ import PropTypes from 'prop-types'
 class HelloWorld extends Component {
   static displayName = 'HelloWorld'
   static propTypes = {
+
     name: PropTypes.string,
   }
 

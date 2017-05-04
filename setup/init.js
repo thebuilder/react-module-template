@@ -10,5 +10,9 @@ if (basename !== 'react-module-template' && !process.env.CI) {
 function setup() {
   execa('plop', ['--plopfile', 'setup/configure-module.js', 'module'], {
     stdio: 'inherit',
-  });
+  }).then(() => {
+    console.log('')
+    console.log('🙌  All done!')
+    console.log('Now run "yarn dev" to get started, and open "./src/index.js"')
+  })
 }

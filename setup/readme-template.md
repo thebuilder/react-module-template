@@ -25,3 +25,10 @@ or NPM:
 ```sh
 npm install {{ kebabCase name }} --save
 ```
+
+<!--- generated-props --->
+## Props
+| Name | Type   | Default | Required | Description                |
+| ---- | ------ | ------- | -------- | -------------------------- |
+| name | String | 'world' | false    | Who should we greet today? |
+<!--- generated-props-end --->
