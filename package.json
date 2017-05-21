@@ -67,7 +67,7 @@
     "babel-core": "^6.24.1",
     "babel-eslint": "^7.2.3",
     "babel-jest": "^20.0.2",
-    "babel-preset-react-app": "^2.2.0",
+    "babel-preset-react-app": "^3.0.0",
     "concurrently": "^3.4.0",
     "del": "^2.2.2",
     "enzyme": "^2.8.2",
