@@ -1,6 +1,6 @@
 {
   "name": "react-module-template",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Template for creating a new React module, ready to publish to np",
   "main": "lib/index.js",
   "author": "Daniel Schmidt",
@@ -41,6 +41,9 @@
   "babel": {
     "presets": [
       "react-app"
+    ],
+    "plugins": [
+      "transform-es2015-modules-commonjs"
     ]
   },
   "eslintConfig": {
@@ -58,43 +61,44 @@
   },
   "dependencies": {},
   "peerDependencies": {
-    "prop-types": "^15.5.8",
+    "prop-types": "^15.5.10",
     "react": "^0.14.0 || ^15.0.0"
   },
   "devDependencies": {
-    "@kadira/storybook": "^2.21.0",
+    "@kadira/storybook": "^2.35.3",
     "babel-cli": "^6.24.1",
     "babel-core": "^6.24.1",
     "babel-eslint": "^7.2.3",
-    "babel-jest": "^20.0.2",
+    "babel-jest": "^20.0.3",
     "babel-preset-react-app": "^3.0.0",
+    "babel-runtime": "^6.23.0",
     "concurrently": "^3.4.0",
     "del": "^2.2.2",
     "enzyme": "^2.8.2",
     "enzyme-to-json": "^1.5.1",
     "eslint": "^3.19.0",
-    "eslint-config-prettier": "^2.0.0",
-    "eslint-config-react-app": "^1.0.2",
-    "eslint-plugin-flowtype": "^2.32.1",
-    "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-jsx-a11y": "^5.0.0",
-    "eslint-plugin-react": "^7.0.0",
+    "eslint-config-prettier": "^2.1.1",
+    "eslint-config-react-app": "^1.0.3",
+    "eslint-plugin-flowtype": "^2.33.0",
+    "eslint-plugin-import": "^2.3.0",
+    "eslint-plugin-jsx-a11y": "^5.0.3",
+    "eslint-plugin-react": "^7.0.1",
     "execa": "^0.6.3",
     "git-directory-deploy": "^1.5.1",
     "husky": "^0.13.3",
-    "jest": "^20.0.0",
+    "jest": "^20.0.3",
     "jsonfile": "^3.0.0",
-    "lint-staged": "^3.4.1",
+    "lint-staged": "^3.4.2",
     "lodash": "^4.17.4",
     "minimist": "1.2.0",
     "npm-run-all": "4.0.2",
     "pascal-case": "^2.0.1",
     "plop": "^1.7.4",
     "prettier": "^1.3.1",
-    "prop-types": "^15.5.8",
+    "prop-types": "^15.5.10",
     "react": "^15.5.4",
     "react-docgen": "^2.15.0",
-    "react-docs-markdown": "^0.1.7",
+    "react-docs-markdown": "^0.1.8",
     "react-dom": "^15.5.4",
     "react-test-renderer": "^15.5.4"
   }
