@@ -23,7 +23,7 @@
   "scripts": {
     "build": "rm -rf lib && npm run build:lib && npm run build:es",
     "build:es": "BABEL_ENV=es babel src --out-dir  es --ignore __*,*.story.js,*.test.js",
-    "build:lib": "BABEL_ENV=commonjs babel src --out-dir lib --ignore __*,*.story.js,*.test.js",
+    "build:lib": "babel src --out-dir lib --ignore __*,*.story.js,*.test.js",
     "build:storybook": "build-storybook --output-dir example",
     "deploy": "npm run build:storybook && git-directory-deploy --directory example --branch gh-pages",
     "dev": "concurrently -k -r 'jest --watch' 'npm run storybook'",
@@ -43,14 +43,8 @@
     ]
   },
   "babel": {
+    "presets": ["env", "react", "stage-2"],
     "env": {
-      "commonjs": {
-        "presets": [
-          "env",
-          "react",
-          "stage-2"
-        ]
-      },
       "es": {
         "presets": [
           [
