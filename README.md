@@ -3,7 +3,7 @@
 [![Greenkeeper badge](https://badges.greenkeeper.io/thebuilder/react-module-template.svg)](https://greenkeeper.io/)
 [![Travis](https://travis-ci.org/thebuilder/react-module-template.svg?branch=master)](https://travis-ci.org/thebuilder/react-module-template)
 [![devDependencies Status](https://david-dm.org/thebuilder/react-module-template/dev-status.svg)](https://david-dm.org/thebuilder/react-module-template?type=dev)
-![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
+[![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 
 ## Ready, set, publish!
 Zero config template that comes with all the tools you need, to get started with publishing a React module to NPM.
