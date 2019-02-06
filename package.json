@@ -114,7 +114,7 @@
     "react": "^16.8.0",
     "react-docgen": "^2.17.0",
     "react-docs-markdown": "^0.3.2",
-    "react-dom": "^15.6.1",
+    "react-dom": "^16.8.0",
     "react-test-renderer": "^15.6.1"
   }
 }
