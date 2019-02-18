@@ -108,7 +108,7 @@
     "lodash": "^4.17.4",
     "minimist": "1.2.0",
     "pascal-case": "^2.0.1",
-    "plop": "^1.8.0",
+    "plop": "^2.2.1",
     "prettier": "^1.5.3",
     "prop-types": "^15.5.10",
     "react": "^15.6.1",
