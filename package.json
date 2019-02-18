@@ -92,7 +92,7 @@
     "del": "^3.0.0",
     "enzyme": "^2.9.1",
     "enzyme-to-json": "^1.5.1",
-    "eslint": "^4.3.0",
+    "eslint": "^5.14.1",
     "eslint-config-prettier": "^2.3.0",
     "eslint-config-react-app": "^2.0.0",
     "eslint-plugin-flowtype": "^2.35.0",
