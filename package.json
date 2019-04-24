@@ -101,7 +101,7 @@
     "eslint-plugin-react": "^7.1.0",
     "execa": "^0.8.0",
     "git-directory-deploy": "^1.5.1",
-    "husky": "^0.14.3",
+    "husky": "^2.0.0",
     "jest": "^20.0.4",
     "jsonfile": "^3.0.1",
     "lint-staged": "^4.0.2",
